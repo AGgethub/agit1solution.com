@@ -1,0 +1,452 @@
+body{
+    background-color:grey;
+}
+
+/*---------- MAIN CONTAINER EDITS----------- */
+.container_one{
+    /* background-color:blueviolet; */
+    justify-content:center;
+    margin-left:5%;
+    margin-right:5%;
+    border: 1px border crimson;
+
+}
+
+/*---------- NAVIGATION BAR STARTS----------- */
+.navbar {
+    background-color:rgb(33, 163, 163);
+
+}
+
+
+.nav-link > li a {
+    color:white;
+    list-style-type:none;
+}
+
+
+
+.footer_m_edits >li a{
+    color:white;
+
+}
+.footer_center {
+    align-items: center;
+}
+
+
+/* This if for our logo in the header */
+.logo{
+     height:70px;
+     width: 80px;
+     border: 10px solid black;
+    
+
+}
+
+/*---------- NAVIGATION BAR ENDS----------- */
+
+/*---------- BANNER OF PAGE EDITS----------- */
+.jumbotron{
+    /* background-color:rgba(216, 86, 63, 0.932); */
+    /* background-image: url(images/banner-1.jpg); */
+    background-size: 100% no-repeat;
+}
+
+.banner_image{
+    height:500px;
+}
+
+/* my slide container box */
+.slideshow_box{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide banner images by default */
+.mySlides{
+    display:none;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    margin-top: -12x;
+    padding:16px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/*---------- BANNER OF PAGE  ENDS----------- */
+
+
+
+/*---------- FIRST BOX SECTION EDITS----------- */
+
+.sec_one{
+    margin:5%;
+    border:crimson;
+
+}
+.first_box {
+    width: 380px;
+    height: 400px;
+   
+
+}
+
+.image_size{
+    width:20%;
+    height:60%
+    
+}
+
+.left_b .middle_b .right_b{
+    margin-top:5%;
+}
+
+/*---------- FIRST BOX SECTION  ENDS----------- */
+
+
+
+
+/*---------- SECOND BOX SECTION EDITS----------- */
+
+
+
+/*---------- SECOND BOX SECTION ENDS----------- */
+
+
+
+
+/*---------- HEADINGS FONTS STYLES EDITS----------- */
+
+/* Service Headings h4s */
+.service_heading_h4{
+    text-align: center;
+    color:crimson;
+}
+
+.sub_headings{
+    padding-top:10px;
+    text-align:center;
+    /* color:rgb(50, 120, 122); */
+    color:crimson;
+ }
+ 
+/*---------- HEADINGS FONTS STYLES ENDS----------- */
+
+
+
+/*---------- FORMS SECTION EDITS----------- */
+
+.form_section{
+    background-color:rgb(33, 163, 163);
+
+}
+
+    .form_box{
+        justify-items: center;
+        width: 300px;
+        position:relative;
+        justify-items: center;
+        margin-top: 20%;
+        
+    }
+
+    .form_size{
+
+    }
+
+
+/*---------- FORMS SECTION EDITS PAGE 2----------- */
+
+
+
+
+/*---------- FOOTER SECTIN START ----------- */
+.footer_the_middle li  {
+    background-color: #486e80;
+    color:white;
+    margin-left:10%;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
+
+/* BACKGROUND COLOR OF FOOTER */
+.footer_main {
+    background-color: #486e80;
+}
+
+/* left side footer content edits */
+.footer_L_edits li{
+    margin-left:10%;
+    list-style: none;
+    justify-content: center;
+    display: Inline;
+    padding: 5px;
+    
+}
+/* left side footer content edits */
+.footer_m_edits li{
+    margin-left:10%;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+
+    
+}
+
+/* this changes the color of our a tags in our li */
+.footer_m_edits >li a{
+    color:white;
+    
+}
+
+.footh5 {
+    text-align:center;
+    font-synthesis: weight;
+    color: rgb(102, 219, 180);
+}
+
+/*---------- FOOTER SECTIN ENDS----------- */
+
+
+
+/*---------- TABLE 1 STARTS ----------- */
+.main_div {
+    background-color:#deebea;
+    width:80%;
+    border: 1px solid black;
+}
+table, th, td {
+    border: 1px solid rgb(17, 17, 17);
+
+}
+  .table_info {
+      margin-left:2%;
+      width:98%;
+      margin-top:500px;
+  }
+
+  /* Table heading */
+  .thead {
+ 
+      width:100px;
+      border: 1px solid black;
+
+      
+  }
+
+  /* Table Date 1 */
+  .tdata {
+      
+    width:100px;
+    height:50px;
+    border: 1px solid black;
+    
+}
+
+
+.table_box1{
+    padding:30px;
+}
+/*---------- TABLE 1 ENDS ----------- */
+
+
+
+
+
+/*------- TEST PHP PAGE ENDS HERE---------- */
+/* ---------TEST SECTION STARTS----------- */
+/* edit to main test section */
+.test_sectionM {
+
+    width:70%;
+    height:600px;
+    background-color:#b6dddd;
+    margin-top:1%;
+    margin-left:15%;
+    margin-right:15%;
+
+}
+
+/* edits for div that contains our table */
+.t_box_table{ 
+    padding:20px;
+    margin:20px;
+    
+
+}
+
+/* edits for actual test table */
+.test_table {
+    /* border: 1px solid rgb(203, 212, 203); */
+
+}
+/* test table heading edits */
+.thead_test {
+ padding:10px;
+}
+
+.t_data {
+    padding:10px; 
+    /* text-align: center; */
+}
+
+/* test table cells edits */
+
+.test_data{
+    /* border: 1px solid black; */
+    padding:10px;
+}
+
+/* TEST SECTION ENDS */
+
+
+
+
+/* ---------PHP ACTUAL SECTION STARTS HERE------------- */
+/* ---------PHP ACTUAL SECTION STARTS HERE------------- */
+/* --CUSTOMER_VIEW SECTION-- */
+.main_details {
+
+    width:80%;
+    height:600px;
+    background-color:#b6dddd;
+    margin-top:1%;
+    margin-left:20%;
+    margin-right:10%;
+
+}
+
+/* THIS EDITS OUR CUSTOMER INFORMATION BOXES */
+.cus_info_box{
+    width: 600px;
+    height: 400px;
+
+}
+
+.cus_car_serv_boxs {
+    width: 600px;
+    height: 400px;
+   
+
+}
+
+
+
+
+/* edits for div that contains our table */
+.t_box_table{ 
+    padding:20px;
+    margin:20px;
+    
+
+}
+
+/* edits for actual test table */
+.test_table {
+    /* border: 1px solid rgb(203, 212, 203); */
+
+}
+/* test table heading edits */
+.thead_test {
+ padding:10px;
+}
+
+/* test table cells edits */
+
+.test_data{
+    /* border: 1px solid black; */
+    padding:10px;
+}
+
+/* TEST SECTION ENDS */
+
+/* ---------AGENT PHP MAIN TABLE FORMAT START HERE */
+.agent_php_table{
+    width:80%;
+
+}
+
+
+/* these remove the line under our link in boxes  */
+.remove_link_style {
+    text-decoration-line: none;
+}
+/* This change our text color form blue in the boxes to black */
+.text_color {
+    color:black;
+    text-decoration-style: dotted;
+
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+
